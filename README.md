@@ -68,26 +68,26 @@ Edit > Notebook settings or Runtime>Change runtime type and select GPU as Hardwa
 ### Cloning Github Repo to Google Colab
 
 ```
-!git clone https://github.com/ildoonet/tf-pose-estimation.git
+!git clone https://github.com/amit6604/Colab-Tutorials.git
 ```
 ### Mount your Google Drive
 
 ```
 from google.colab import drive
-drive.mount('/content/drive/')
+drive.mount('/content/gdrive/')
 ```
 
 ### Check your Folder Data
 
 ```
-!ls Drive/test
+!ls /content/gdrive/'My Drive'
 ```
 
 ### Upload code from your system
 
 ```
 from google.colab import files
-uploaded = files.upload()
+file = files.upload()
 ```
 ### Make zip file of your Data
 
